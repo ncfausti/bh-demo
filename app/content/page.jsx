@@ -1,10 +1,3 @@
-// export default function Content() {
-//   return (
-//     <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-//       Hello from content
-//     </div>
-//   );
-// }
 "use client";
 import React, { PureComponent } from "react";
 import {
@@ -40,6 +33,17 @@ const initialData = [
   { name: 18, cost: 2, impression: 50 },
   { name: 19, cost: 3, impression: 100 },
   { name: 20, cost: 7, impression: 100 },
+  { name: 21, cost: 4.3, impression: 210 },
+  { name: 22, cost: 4.41, impression: 300 },
+  { name: 23, cost: 2.1, impression: 50 },
+  { name: 24, cost: 8, impression: 190 },
+  { name: 25, cost: 0, impression: 300 },
+  { name: 26, cost: 9, impression: 400 },
+  { name: 27, cost: 3, impression: 200 },
+  { name: 28, cost: 2, impression: 50 },
+  { name: 29, cost: 3, impression: 100 },
+  { name: 30, cost: 7, impression: 100 },
+  { name: 31, cost: 2, impression: 50 },
 ];
 
 const getAxisYDomain = (from, to, ref, offset) => {
@@ -67,8 +71,6 @@ const initialState = {
 };
 
 export default class Page extends PureComponent {
-  static demoUrl = "https://codesandbox.io/s/highlight-zomm-line-chart-v77bt";
-
   constructor(props) {
     super(props);
     this.state = initialState;
