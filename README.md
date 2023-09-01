@@ -25,7 +25,7 @@ In production, the Flask server is hosted as [Python serverless functions](https
 
 ## Demo
 
-ADD DEMO LINK HERE
+[DEMO](https://bh-demo-egkzq67ol-ncfausti.vercel.app/)
 
 ## Developing Locally
 
