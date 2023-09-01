@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nickfausti.com">
-    <img src="me.jpeg" height="96" style="border-radius: 100%;">
+    <img src="https://nickfausti.com/img/profile.jpg" height="96" style="border-radius: 100%;">
     <h3 align="center">Nick Fausti | Bascom Hunter Demo</h3>
   </a>
 </p>
